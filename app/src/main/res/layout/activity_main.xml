@@ -48,33 +48,28 @@
                 app:layout_constraintTop_toTopOf="parent" />
         </android.support.constraint.ConstraintLayout>
 
-        <android.support.constraint.ConstraintLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/indentation_16"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/constPersTop"
-            app:layout_constraintTop_toBottomOf="@+id/constPersTop">
+
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/civ_avatar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/ic_launcher"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_margin="@dimen/indentation_16"
+                app:layout_constraintStart_toStartOf="@+id/constPersTop"
+                app:layout_constraintTop_toBottomOf="@+id/constPersTop" />
 
             <TextView
                 android:id="@+id/tv_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/indentation_16"
+                android:layout_margin="@dimen/indentation_16"
                 android:text="Name Surname"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="normal"
                 app:layout_constraintStart_toEndOf="@id/civ_avatar"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@+id/constPersTop" />
 
             <android.support.constraint.ConstraintLayout
                 android:layout_width="wrap_content"
@@ -89,19 +84,18 @@
                     android:layout_height="@dimen/indentation_16"
                     android:background="@color/soft_blue"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
 
                 <TextView
                     android:id="@+id/tv_geo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/indentation_16"
-                    android:layout_toEndOf="@+id/iv_geo"
                     android:text="Geolocation"
                     style="@style/TextBlueMedium"
                     app:layout_constraintStart_toEndOf="@+id/iv_geo"
                     app:layout_constraintTop_toTopOf="parent" />
-            </android.support.constraint.ConstraintLayout>
         </android.support.constraint.ConstraintLayout>
 
 
