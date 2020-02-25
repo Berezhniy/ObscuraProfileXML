@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="view_param_64">64dp</dimen>
-    <dimen name="view_params_344">344dp</dimen>
-    <dimen name="view_params_155">155dp</dimen>
-    <dimen name="view_params_40">40dp</dimen>
-    <dimen name="view_params_60">60dp</dimen>
 
+    <dimen name="view_params_40">40dp</dimen>
+    <dimen name="view_params_18">18dp</dimen>
+    <dimen name="view_params_20">20dp</dimen>
+    <dimen name="view_params_24">24dp</dimen>
     <dimen name="indentation_16">16dp</dimen>
     <dimen name="indentation_8">8dp</dimen>
+    <dimen name="indentation_32">32dp</dimen>
 </resources>

@@ -9,7 +9,7 @@
     <android.support.constraint.ConstraintLayout
         android:id="@+id/constPers"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/view_params_155"
+        android:layout_height="155dp"
         android:background="@drawable/background_personal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">

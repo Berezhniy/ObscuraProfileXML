@@ -32,18 +32,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/indentation_16"
                 android:layout_marginTop="@dimen/indentation_8"
-                android:fontFamily="sans-serif-medium"
                 android:text="PERSONAL"
-                android:textColor="@color/white"
-                android:textSize="16sp"
-                android:textStyle="normal"
+                style="@style/TextBanner"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/iv_pen"
-                android:layout_width="18dp"
-                android:layout_height="18dp"
+                android:layout_width="@dimen/view_params_18"
+                android:layout_height="@dimen/view_params_18"
                 android:layout_marginTop="@dimen/indentation_8"
                 android:layout_marginEnd="@dimen/indentation_16"
                 android:background="@color/white"
@@ -72,7 +69,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/indentation_16"
-                android:fontFamily="sans-serif-medium"
                 android:text="Name Surname"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -101,11 +97,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/indentation_16"
                     android:layout_toEndOf="@+id/iv_geo"
-                    android:fontFamily="sans-serif-medium"
                     android:text="Geolocation"
-                    android:textColor="@color/soft_blue"
-                    android:textSize="14sp"
-                    android:textStyle="normal"
+                    style="@style/TextBlueMedium"
                     app:layout_constraintStart_toEndOf="@+id/iv_geo"
                     app:layout_constraintTop_toTopOf="parent" />
             </android.support.constraint.ConstraintLayout>
@@ -138,18 +131,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/indentation_16"
                 android:layout_marginTop="@dimen/indentation_8"
-                android:fontFamily="sans-serif-medium"
                 android:text="PROFESSIONAL"
-                android:textColor="@color/white"
-                android:textSize="16sp"
-                android:textStyle="normal"
+                style="@style/TextBanner"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/ivProf_pen"
-                android:layout_width="18dp"
-                android:layout_height="18dp"
+                android:layout_width="@dimen/view_params_18"
+                android:layout_height="@dimen/view_params_18"
                 android:layout_marginTop="@dimen/indentation_8"
                 android:layout_marginEnd="@dimen/indentation_16"
                 android:background="@color/white"
@@ -167,8 +157,8 @@
 
             <ImageView
                 android:id="@+id/ivProf_1"
-                android:layout_width="18dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/view_params_18"
+                android:layout_height="@dimen/view_params_20"
                 android:background="@color/image"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -178,11 +168,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/indentation_16"
-                android:fontFamily="sans-serif"
                 android:text="UX/UI designer"
-                android:textColor="@color/greyish_brown"
-                android:textSize="14sp"
-                android:textStyle="normal"
+                style="@style/TextDark"
                 app:layout_constraintStart_toEndOf="@+id/ivProf_1"
                 app:layout_constraintTop_toTopOf="parent" />
         </android.support.constraint.ConstraintLayout>
@@ -197,8 +184,8 @@
 
             <ImageView
                 android:id="@+id/ivProf_2"
-                android:layout_width="18dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/view_params_18"
+                android:layout_height="@dimen/view_params_20"
                 android:background="@color/image"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -208,11 +195,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/indentation_16"
-                android:fontFamily="sans-serif"
                 android:text="Professional certificates (2)"
-                android:textColor="@color/soft_blue"
-                android:textSize="14sp"
-                android:textStyle="normal"
+                style="@style/TextBlue"
                 app:layout_constraintStart_toEndOf="@+id/ivProf_2"
                 app:layout_constraintTop_toTopOf="parent" />
         </android.support.constraint.ConstraintLayout>
@@ -228,8 +212,8 @@
 
             <ImageView
                 android:id="@+id/ivProf_3"
-                android:layout_width="18dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/view_params_18"
+                android:layout_height="@dimen/view_params_20"
                 android:background="@color/image"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -239,11 +223,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/indentation_16"
-                android:fontFamily="sans-serif"
                 android:text="Interested in: "
-                android:textColor="@color/greyish_brown"
-                android:textSize="14sp"
-                android:textStyle="normal"
+                style="@style/TextDark"
                 app:layout_constraintStart_toEndOf="@+id/ivProf_3"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -251,11 +232,8 @@
                 android:id="@+id/tvProf_3.2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:text="ART, SPORT"
-                android:textColor="@color/soft_blue"
-                android:textSize="14sp"
-                android:textStyle="normal"
+                style="@style/TextBlue"
                 app:layout_constraintStart_toEndOf="@id/tvProf_3.1"
                 app:layout_constraintTop_toTopOf="parent" />
         </android.support.constraint.ConstraintLayout>
@@ -285,18 +263,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/indentation_16"
                 android:layout_marginTop="@dimen/indentation_8"
-                android:fontFamily="sans-serif-medium"
                 android:text="THEMES"
-                android:textColor="@color/white"
-                android:textSize="16sp"
-                android:textStyle="normal"
+                style="@style/TextBanner"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/iv_block"
-                android:layout_width="18dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/view_params_18"
+                android:layout_height="@dimen/view_params_20"
                 android:layout_marginTop="@dimen/indentation_8"
                 android:layout_marginEnd="@dimen/indentation_16"
                 android:background="@color/white"
@@ -314,8 +289,8 @@
 
             <ImageView
                 android:id="@+id/ivThem_1"
-                android:layout_width="18dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/view_params_18"
+                android:layout_height="@dimen/view_params_20"
                 android:background="@color/image"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -325,12 +300,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/indentation_16"
-                android:layout_marginBottom="8dp"
-                android:fontFamily="sans-serif"
+                android:layout_marginBottom="@dimen/indentation_8"
                 android:text="Created themes (12)"
-                android:textColor="@color/soft_blue"
-                android:textSize="14sp"
-                android:textStyle="normal"
+                style="@style/TextBlue"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/ivThem_1"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -347,8 +319,8 @@
 
             <ImageView
                 android:id="@+id/ivThem_2"
-                android:layout_width="18dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/view_params_18"
+                android:layout_height="@dimen/view_params_20"
                 android:background="@color/image"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -358,11 +330,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/indentation_16"
-                android:fontFamily="sans-serif"
                 android:text="Followed themes (28)"
-                android:textColor="@color/soft_blue"
-                android:textSize="14sp"
-                android:textStyle="normal"
+                style="@style/TextBlue"
                 app:layout_constraintStart_toEndOf="@+id/ivThem_2"
                 app:layout_constraintTop_toTopOf="parent" />
         </android.support.constraint.ConstraintLayout>
@@ -373,7 +342,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/indentation_16"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="@dimen/indentation_32"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/constThemes">
 
@@ -381,18 +350,15 @@
             android:id="@+id/tvSetting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-medium"
             android:text="Application settings"
-            android:textColor="@color/greyish_brown"
-            android:textSize="14sp"
-            android:textStyle="normal"
+            style="@style/TextDarkMedium"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/iv_forward"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="@dimen/view_params_24"
+            android:layout_height="@dimen/view_params_24"
             android:background="@color/greyish_brown"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -402,11 +368,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/indentation_16"
-        android:fontFamily="sans-serif-medium"
         android:text="LOG OUT"
-        android:textColor="@color/soft_blue"
-        android:textSize="14sp"
-        android:textStyle="normal"
+        style="@style/TextBlueMedium"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/constSetting" />
 </android.support.constraint.ConstraintLayout>
