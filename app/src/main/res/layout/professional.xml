@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ice_blue">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constProf"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:background="@drawable/background_personal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constProfTop"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_params_40"
+            android:background="@drawable/background_personal_blue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+                android:id="@+id/tvProfessional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/indentation_16"
+                android:layout_marginTop="@dimen/indentation_8"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="PROFESSIONAL" />
+
+            <ImageView
+                android:id="@+id/ivProf_pen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/indentation_8"
+                android:layout_marginEnd="@dimen/indentation_16"
+                android:background="@mipmap/ic_pen"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constProf1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/indentation_16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constProfTop">
+
+            <ImageView
+                android:id="@+id/ivProf_1"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:background="@color/image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvProf_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/indentation_16"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/greyish_brown"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toEndOf="@+id/ivProf_1"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="UX/UI designer" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constProf2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/indentation_16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constProf1">
+
+            <ImageView
+                android:id="@+id/ivProf_2"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:background="@color/image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvProf_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/indentation_16"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/soft_blue"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toEndOf="@+id/ivProf_2"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Professional certificates (2)" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constProf3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/indentation_16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constProf2">
+
+            <ImageView
+                android:id="@+id/ivProf_3"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:background="@color/image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvProf_3.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/indentation_16"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/greyish_brown"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toEndOf="@+id/ivProf_3"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Interested in: " />
+            <TextView
+                android:id="@+id/tvProf_3.2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tvProf_3.1"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textColor="@color/soft_blue"
+                tools:text="ART, SPORT"
+                />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
